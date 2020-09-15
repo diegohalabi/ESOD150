@@ -1,0 +1,111 @@
+---
+title: "Seminario Unidad 3" 
+subtitle: 'Simulando un programa de prevención y promoción en salud'
+author: 'ESOD150 - Odontología Preventiva y Epidemiología'
+output: pdf_document
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics[width=2in,height=2in]{uach.png}\LARGE\\}
+  - \posttitle{\end{center}}
+classoption: letterpaper
+---
+Este seminario corresponde a la tercera unidad de la asignatura, y su evaluación equivale al 31.5% de la nota final. Una vez aprobada la unidad, usted debería ser capaz de:
+
+* Organizar y resumir información poblacional para determinar un diagnóstico de salud/enfermedad bajo el modelo de salud familiar y comunitaria, trabajando en equipo y bajo la guía docente.
+
+* Formular una intervención de prevención y promoción en salud, considerando factores biopsicosociales, respetando la diversidad cultural y valorando la responsabilidad social que le compete al cirujano/cirujana dentista.
+
+* Evaluar el impacto de una intervención de promoción en salud en un trabajo simulado, utilizando indicadores de salud cuantificables.
+
+
+# Instrucciones.
+
+Se formarán grupos de 7 estudiantes, en forma aleatoria. A cada grupo le tocará intervenir a una población predefinida, de forma simulada y guiada por un docente de la asignatura.
+
+1. Debe buscar qué grupo y qué docente le corresponde. La distribución de los integrantes y sus docentes están inscritos en la planilla `'listado-grupos.xls'`, y además están organizados en Siveduc.
+
+2. Una vez identificado su grupo, debe buscar en la carpeta `'/data'` el archivo correspondiente a su grupo. Ahí encontrará los datos asignados para trabajar durante el desarrollo del seminario.
+
+3. Con estos datos, deberá realizar un diagnóstico de salud de su población, integrando los conceptos aprendidos principalmente en esta asignatura, y secundariamente en las asignaturas que ya ha aprobado.
+
+3. Luego, tendrá que diseñar un programa de promoción para intervenir a esa población, **de acuerdo a su diagnóstico**. Tenga presente que la elección de la metodología debe tener, además, un sustento en la evidencia científica y su criterio.
+
+4. Finalmente, debe presentar el impacto que ha tenido su intervención. Para esto, también dispone de datos simulados.
+
+\pagebreak
+
+# Evaluación.
+
+La evaluación constará de 3 etapas:
+
+1. Se evaluará 1 avance en forma presencial, el día miércoles 06 de enero en horario de asignatura. En caso de paro, toma, movilizaciones, o cualquier evento en que voluntariamente decidan suspender esta actividad, se hará solo por correo electrónico (**30% de la nota de seminario**).
+
+2. Cada grupo deberá presentar su trabajo finalizado el día 20 de enero, en horario de asignatura (**65% de la nota de seminario**).
+
+3. Durante todo el proceso, se aplicará la pauta de evaluación actitudinal (**5% de la nota de seminario**).
+
+El detalle de cómo se calcula la nota para el avance y el seminario final aparece detallado en los archivos `'script-avance.R'` y `'script-seminario.R'`, respectivamente, en la carpeta `/evaluaciones`.
+
+## Avance.
+
+El día del avance, cada grupo se reunirá con un docente de la asignatura. Deben tener, a lo menos, el diagnóstico y evaluación de su programa de promoción, y una propuesta de intervención. La pauta a aplicar será la siguiente:
+
+\begin{table}[ht]
+\caption{Pauta para evaluar el avance del seminario. Se asignará 3 puntos por cada ítem logrado, 2 puntos por cada ítem parcialmente logrado, y 1 punto por cada ítem no logrado. La suma total del puntaje se transformará a nota (prema 60\%).}
+\label{Pauta avance}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Ítem} & \textbf{Logrado} & \vtop{\hbox{\strut \textbf{Logrado}}\hbox{\strut \textbf{parcialmente}}} & \textbf{No logrado} \\ \hline
+\multicolumn{4}{|l|}{\textbf{Diagnóstico}} \\ \hline
+\vtop{\hbox{\strut Presenta tablas y/o gráficos adecuados en cantidad y calidad}\hbox{\strut que resumen la información.}} &  & &  \\ \hline
+Identifica un problema de salud en su población. &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Propuesta de intervención}} \\ \hline
+\vtop{\hbox{\strut Propone una intervención basada en el o los problemas de}\hbox{\strut salud que diagnosticó en su población.}} &  &  &  \\ \hline
+\vtop{\hbox{\strut Utiliza la mejor evidencia disponible para plantear la metodología}\hbox{\strut de su intervención.}} &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Evaluación del programa}} \\ \hline
+\vtop{\hbox{\strut Compara los indicadores relevantes después de haber}\hbox{\strut realizado la intervención.}} &  &  &  \\ \hline
+\end{tabular}
+}
+\end{table}
+
+\pagebreak
+
+## Presentación.
+
+Para el día de la presentación, cada grupo deberá exponer oralmente. Dispondrán de 15 minutos máximo, más 5 minutos de preguntas o discusión. La persona que presentará será elegida aleatoriamente el mismo día. La pauta de evaluación es la siguiente:
+
+\begin{table}[ht]
+\caption{Pauta para evaluar el seminario. Se asignará 3 puntos por cada ítem logrado, 2 puntos por cada ítem parcialmente logrado, y 1 punto por cada ítem no logrado. La suma total del puntaje se transformará a nota (prema 60\%).}
+\label{Pauta seminario}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Ítem} & \textbf{Logrado} & \vtop{\hbox{\strut \textbf{Logrado}}\hbox{\strut \textbf{parcialmente}}} & \textbf{No logrado} \\ \hline
+\multicolumn{4}{|l|}{\textbf{Diagnóstico general}} \\ \hline
+\vtop{\hbox{\strut Utiliza índices e indicadores de salud adecuados para}\hbox{\strut describir de manera correcta a su población.}} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} \\ \hline
+\vtop{\hbox{\strut Presenta tablas y/o gráficos adecuados en cantidad y calidad}\hbox{\strut que resumen la   información.}} &  &  &  \\ \hline
+Identifica   un problema de salud en su población. &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Diagnóstico odontológico}} \\ \hline
+\vtop{\hbox{\strut Utiliza   índices e indicadores de salud adecuados para}\hbox{\strut describir de manera correcta a su población.}} &  &  &  \\ \hline
+\vtop{\hbox{\strut Enuncia un objetivo desde el educando y en relación con}\hbox{\strut el grupo objetivo.}} &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Metodología}} \\ \hline
+\vtop{\hbox{\strut Describe claramente lo que se   realizó (es replicable).}\hbox{\strut Detalla cuántas sesiones realizó, y qué realizó en cada una.}} &  & &  \\ \hline
+Está justificada y dirigida al diagnóstico. &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Recursos Humanos}} \\ \hline
+\vtop{\hbox{\strut Explica quién o quiénes fueron los que realizaron}\hbox{\strut y participaron en las intervenciones.}} &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Recursos Financieros}} \\ \hline
+\vtop{\hbox{\strut Explica y   detalla la gestión realizada para el financiamiento}\hbox{\strut del programa, montos (simulados), institución que financió, etc.}} &  & &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Evaluación del programa}} \\ \hline
+\vtop{\hbox{\strut Expresa de forma cuantitativa el cambio entre el antes}\hbox{\strut y el después de la intervención.}} &  &  &  \\ \hline
+Está dirigida a los objetivos planteados. &  &  &  \\ \hline
+\vtop{\hbox{\strut Realiza una conclusión en relación   con la efectividad}\hbox{\strut de su intervención.}} &  &  &  \\ \hline
+\multicolumn{4}{|l|}{\textbf{Presentación}} \\ \hline
+Se ajusta al tiempo (15 minutos). &  &  &  \\ \hline
+Responde las preguntas de los   docentes y/o compañeras/os. &  &  &  \\ \hline
+\end{tabular}
+}
+\end{table}
+
+
